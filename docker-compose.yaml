@@ -5,10 +5,10 @@ services:
     restart: always
     environment:
       # === Required Settings
-      MAIN_URL: 'http://localhost:4007'
-      FRONTEND_URL: 'http://localhost:4007'
-      NEXT_PUBLIC_BACKEND_URL: 'http://localhost:4007/api'
-      JWT_SECRET: 'random string that is unique to every install - just type random characters here!'
+      MAIN_URL: 'https://post.skriva.web.id'
+      FRONTEND_URL: 'https://post.skriva.web.id'
+      NEXT_PUBLIC_BACKEND_URL: 'https://post.skriva.web.id/api'
+      JWT_SECRET: '3wO4DlPI167Mr3j+yyqls6vpX0EubPkwb9wbCJitppo='
       DATABASE_URL: 'postgresql://postiz-user:postiz-password@postiz-postgres:5432/postiz-db-local'
       REDIS_URL: 'redis://postiz-redis:6379'
       BACKEND_INTERNAL_URL: 'http://localhost:3000'
